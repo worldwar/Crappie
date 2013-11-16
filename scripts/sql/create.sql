@@ -1,0 +1,6 @@
+CREATE TABLE author(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(60) NOT NULL UNIQUE,
+    password VARCHAR(20),
+    name VARCHAR(20)
+)

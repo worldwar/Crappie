@@ -1,0 +1,2 @@
+ALTER TABLE author ADD COLUMN email VARCHAR(60) AFTER id;
+ALTER TABLE author ADD COLUMN password VARCHAR(20) AFTER email;

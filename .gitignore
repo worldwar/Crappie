@@ -1,0 +1,6 @@
+out/
+build/
+Crappie.ipr
+Crappie.iws
+Crappie.iml
+.gradle/
